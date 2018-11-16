@@ -1,10 +1,11 @@
 /* pages/index.js */
 // import { Button, Alert } from 'reactstrap'
+import Layout from "../components/Layout";
 
 export default () => {
   return (
-    <div className="blue bb pa4">
-      <h1 className="bb">Hello</h1>
-    </div>
-  )
-}
+    <Layout>
+      <h1>Hello</h1>
+    </Layout>
+  );
+};

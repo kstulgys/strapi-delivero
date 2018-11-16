@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds041337.mlab.com",
+        "srv": false,
+        "port": "41337",
+        "database": "strapi-delivero-dev",
+        "username": "delivero",
+        "password": "delivero123"
+      },
+      "options": {
+        "authenticationDatabase": "strapi-delivero-dev",
+        "ssl": false
+      }
+    }
+  }
+}
